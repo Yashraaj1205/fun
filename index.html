@@ -48,8 +48,8 @@
 
     <div id="ui-layer">
         <div id="loader">Initializing Core...</div>
-        <div class="hud-text bl">System: Online<br>Logic: Scientific</div>
-        <div class="hud-text tr">The Monolith<br>v.9.0.2 (Patched)</div>
+        <div class="hud-text bl">System: Online<br></div>
+        <div class="hud-text tr">The Monolith<br>v.9.0.2</div>
     </div>
 
     <script type="importmap">
@@ -174,7 +174,7 @@
                 const mesh = new THREE.Mesh(btnGeo, btnBaseMaterial.clone());
                 
                 // Color coding
-                if(label === '=') mesh.material.emissive = new THREE.Color(0x00f3ff);
+                if(label === '=') mesh.material.emissive = new THREE.Color(0x00f3f);
                 if(label === 'AC') mesh.material.color = new THREE.Color(0xff0055);
                 
                 mesh.castShadow = true;
@@ -414,3 +414,4 @@
     </script>
 </body>
 </html>
+
